@@ -2,8 +2,11 @@
 
 uv is a package manager for python
 
-## Initialize a new project
+## Commands
 
-```bash
-uv init <project_name>
-```
+- `uv init <project_name>`
+- `uv python pin <version>`
+- `uv sync`
+- `uv add <package_name>`
+  - `uv add pytest --dev`
+- `uv self update`
